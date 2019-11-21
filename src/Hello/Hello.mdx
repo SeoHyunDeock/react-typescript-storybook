@@ -1,0 +1,24 @@
+import Hello from "./Hello";
+import {
+  Story,
+  Props,
+  Description,
+  Preview
+} from "@storybook/addon-docs/blocks";
+
+# Hello
+
+<Hello name="MDX" big={true} />
+<Description of={Hello} />
+
+## Props
+
+어떤 프롭스
+
+<Props of={Hello} />
+
+## 작은 Hello
+
+<Preview>
+  <Story id="components-basic-hello--hello" />
+</Preview>
